@@ -1,0 +1,16 @@
+{
+  "service": "table-tennis-logistics",
+  "context": {
+    "season": 2027,
+    "cities": [
+      "Montpellier",
+      "Macao",
+      "Chengdu"
+    ],
+    "asset_classes": [
+      "table",
+      "scoring",
+      "broadcast"
+    ]
+  }
+}
