@@ -12,5 +12,99 @@
       "scoring",
       "broadcast"
     ]
-  }
+  },
+  "certification_rules": [
+    {
+      "rule_id": "CR-TABLE-2024",
+      "kind": "table",
+      "standard": "ITTF-T2024",
+      "effective_from": "2024-01-01T00:00:00Z",
+      "effective_to": "2026-12-31T23:59:59Z",
+      "min_valid_days": 0
+    },
+    {
+      "rule_id": "CR-TABLE-2027",
+      "kind": "table",
+      "standard": "ITTF-T2027",
+      "effective_from": "2027-01-01T00:00:00Z",
+      "effective_to": null,
+      "min_valid_days": 30
+    },
+    {
+      "rule_id": "CR-BROADCAST-2027",
+      "kind": "broadcast",
+      "standard": "WBD-2027",
+      "effective_from": "2027-01-01T00:00:00Z",
+      "effective_to": null,
+      "min_valid_days": 0
+    }
+  ],
+  "inventory": [
+    {
+      "serial": "TBL-001",
+      "kind": "table",
+      "home": "Shenzhen",
+      "certifications": [
+        {
+          "standard": "ITTF-T2027",
+          "valid_from": "2026-06-01T00:00:00Z",
+          "valid_until": "2028-05-31T23:59:59Z"
+        }
+      ]
+    },
+    {
+      "serial": "TBL-002",
+      "kind": "table",
+      "home": "Shenzhen",
+      "certifications": [
+        {
+          "standard": "ITTF-T2027",
+          "valid_from": "2026-06-01T00:00:00Z",
+          "valid_until": "2028-05-31T23:59:59Z"
+        }
+      ]
+    },
+    {
+      "serial": "TBL-003",
+      "kind": "table",
+      "home": "Lyon",
+      "certifications": [
+        {
+          "standard": "ITTF-T2024",
+          "valid_from": "2024-03-01T00:00:00Z",
+          "valid_until": "2027-03-31T23:59:59Z"
+        }
+      ]
+    },
+    {
+      "serial": "SCR-101",
+      "kind": "scoring",
+      "home": "Macao",
+      "certifications": []
+    },
+    {
+      "serial": "BRD-201",
+      "kind": "broadcast",
+      "home": "Chengdu",
+      "certifications": [
+        {
+          "standard": "WBD-2027",
+          "valid_from": "2027-01-15T00:00:00Z",
+          "valid_until": "2027-12-31T23:59:59Z"
+        }
+      ]
+    }
+  ],
+  "technicians": [
+    {
+      "ref": "TECH-A",
+      "name": "场地技术组A",
+      "base": "Macao"
+    },
+    {
+      "ref": "TECH-B",
+      "name": "场地技术组B",
+      "base": "Chengdu"
+    }
+  ]
 }
